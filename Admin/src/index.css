@@ -1,0 +1,17 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Radley:ital@0;1&display=swap');
+
+* {
+    font-family: Inter, serif;
+}
+
+select,input,textarea {
+    border: 1px solid black;
+    outline-color: #9f0012;
+    border-radius: 4px;
+}
+
+.active{
+    background-color: #f3f4ff;
+    border-color: #9f0012;
+}
